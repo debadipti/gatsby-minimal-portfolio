@@ -2,6 +2,7 @@
   "name": "gatsby-minimal-portfolio",
   "description": "A simple, minimal and beautiful portfolio built with Gatsby.",
   "version": "0.1.0",
+  "license": "MIT",
   "author": "Debadipti Patra <pdebadipti95@gmail.com>",
   "dependencies": {
     "gatsby": "^2.17.11",
@@ -20,7 +21,6 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -32,9 +32,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/debadipti/gatsby-minimal-portfolio"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/debadipti/gatsby-minimal-portfolio/issues"
   }
 }
