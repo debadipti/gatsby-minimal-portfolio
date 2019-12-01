@@ -3,6 +3,11 @@ module.exports = {
     title: `Gatsby Minimal Portfolio`,
     description: `A simple, minimal and beautiful portfolio built with Gatsby.`,
     author: `Debadipti Patra`,
+    links: {
+      github: 'https://github.com',
+      twitter: 'https://twitter.com',
+      behance: 'https://behance.in',
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +32,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sass`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
