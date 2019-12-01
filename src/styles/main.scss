@@ -1,0 +1,11 @@
+// variables
+@import './variables';
+// normalize scss import
+@import './normalize';
+// breakpoints
+@import './breakpoints';
+// layout
+@import './layout';
+
+// header
+@import './components/nav.scss';

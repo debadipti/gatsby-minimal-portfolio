@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  &_logo {
+    color: $gray;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 1rem 2.2rem 0.6rem;
+    &:hover,
+    &:active {
+      color: $dark;
+    }
+  }
+  &_links {
+    text-align: center;
+    > a {
+      color: $gray;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      margin: 0 0.4rem;
+    }
+  }
+}
