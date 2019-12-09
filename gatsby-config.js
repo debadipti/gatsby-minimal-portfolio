@@ -1,37 +1,19 @@
 module.exports = {
   siteMetadata: {
+    // site info
     title: `Gatsby Minimal Portfolio`,
     description: `A simple, minimal and beautiful portfolio built with Gatsby.`,
+    // personal info
     author: `Debadipti Patra`,
+    bio: `Hey, my name is Debadipti Patra. Provident laudantium rem aliquam exercitationem fugiat nisi consectetur illum dolorum, dolore aliquid placeat vero accusamus aperiam consequuntur.`,
     links: {
-      github: 'https://github.com',
-      twitter: 'https://twitter.com',
-      behance: 'https://behance.in',
+      github: 'https://github.com/debadipti',
+      twitter: 'https://twitter.com/pdebadipti',
+      behance: 'https://www.behance.net/pdebadipti',
     },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-minimal-portfolio`,
-        short_name: `minimal`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-portfolio`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
     `gatsby-plugin-sass`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
