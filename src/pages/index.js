@@ -1,21 +1,39 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
-import Image from '../components/image';
 import SEO from '../components/seo';
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-);
+import myImg from '../images/my-image.jpeg';
+
+const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    query AuthorQuery {
+      site {
+        siteMetadata {
+          author
+          bio
+          links {
+            github
+            twitter
+            behance
+          }
+        }
+      }
+    }
+  `);
+
+  return (
+    <Layout>
+      <SEO title="Home" description={data.site.siteMetadata.bio} />
+      <div className="intro">
+        <div className="intro_img">
+          <img src={myImg} alt="a cute minnion" />
+        </div>
+        <h1 className="intro_heading">{data.site.siteMetadata.bio}</h1>
+      </div>
+    </Layout>
+  );
+};
 
 export default IndexPage;
