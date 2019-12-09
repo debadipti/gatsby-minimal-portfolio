@@ -1,10 +1,8 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="nav">
-    <p>
-      made with <a href="https://www.gatsbyjs.org/">Gatsby</a>
-    </p>
+  <footer className="footer">
+    made with <a href="https://www.gatsbyjs.org/">Gatsby</a> ❤
   </footer>
 );
 

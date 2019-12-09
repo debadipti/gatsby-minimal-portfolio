@@ -11,13 +11,7 @@ const Layout = ({ children }) => {
     query SiteTitleQuery {
       site {
         siteMetadata {
-          title
           author
-          links {
-            github
-            twitter
-            behance
-          }
         }
       }
     }
