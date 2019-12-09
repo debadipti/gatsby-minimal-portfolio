@@ -1,0 +1,19 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &_heading {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: $text-primary;
+    margin: 0 1rem;
+  }
+  &_img {
+    height: 16rem;
+    margin-bottom: 3rem;
+    img {
+      height: 100%;
+      max-width: 100%;
+    }
+  }
+}

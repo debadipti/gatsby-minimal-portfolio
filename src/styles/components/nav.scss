@@ -1,23 +1,32 @@
 .nav {
   display: flex;
   flex-direction: column;
+  margin: 1rem 0 2rem;
   &_logo {
-    color: $gray;
-    font-size: 1.4rem;
+    color: $text-secondary;
+    font-size: 1.6rem;
     text-align: center;
-    margin: 1rem 2.2rem 0.6rem;
-    &:hover,
-    &:active {
-      color: $dark;
+    margin: 0 2.2rem 1rem;
+    @include lg {
+      &:hover,
+      &:active {
+        color: $text-primary;
+      }
     }
   }
   &_links {
     text-align: center;
     > a {
-      color: $gray;
-      font-size: 0.85rem;
+      color: $text-secondary;
+      font-size: 1rem;
       text-transform: uppercase;
       margin: 0 0.4rem;
+      @include lg {
+        &:hover,
+        &:active {
+          color: $text-primary;
+        }
+      }
     }
   }
 }

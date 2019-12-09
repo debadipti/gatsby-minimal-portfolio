@@ -3,12 +3,13 @@
     width: 100%;
     min-height: 100vh;
     box-sizing: border-box;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
     display: flex;
     flex-direction: column;
   }
   &_content {
+    padding: 2rem 0;
     flex: 1 0 0;
   }
 }
