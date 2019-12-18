@@ -1,12 +1,12 @@
 .nav {
   display: flex;
   flex-direction: column;
-  margin: 1rem 0 2rem;
+  margin: 1rem 0 1.6rem;
   &_logo {
     color: $text-secondary;
     font-size: 1.6rem;
     text-align: center;
-    margin: 0 2.2rem 1rem;
+    margin: 0 2.2rem 0.7rem;
     @include lg {
       &:hover,
       &:active {
@@ -21,6 +21,10 @@
       font-size: 1rem;
       text-transform: uppercase;
       margin: 0 0.4rem;
+      line-height: 1;
+      > svg {
+        margin: 0.2rem 0 0 0.3rem;
+      }
       @include lg {
         &:hover,
         &:active {

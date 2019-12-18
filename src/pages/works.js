@@ -4,12 +4,8 @@ import Layout from '../components/layout';
 
 const WorksPage = () => (
   <Layout>
-    <h1>My Works</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsum
-      pariatur fugit magnam illum, facilis consectetur mollitia maiores nihil
-      laborum?
-    </p>
+    <h1 className="works_heading">My Works</h1>
+    <div className=""></div>
   </Layout>
 );
 

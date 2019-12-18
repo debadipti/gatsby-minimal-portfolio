@@ -5,7 +5,7 @@ module.exports = {
     description: `A simple, minimal and beautiful portfolio built with Gatsby.`,
     // personal info
     author: `Debadipti Patra`,
-    bio: `Hey, my name is Debadipti Patra. Provident laudantium rem aliquam exercitationem fugiat nisi consectetur illum dolorum, dolore aliquid placeat vero accusamus aperiam consequuntur.`,
+    bio: `Provident laudantium rem aliquam exercitationem fugiat nisi consectetur illum dolorum, dolore aliquid placeat vero accusamus aperiam consequuntur.`,
     links: {
       github: 'https://github.com/debadipti',
       twitter: 'https://twitter.com/pdebadipti',

@@ -30,7 +30,10 @@ const IndexPage = () => {
         <div className="intro_img">
           <img src={myImg} alt="a cute minnion" />
         </div>
-        <h1 className="intro_heading">{data.site.siteMetadata.bio}</h1>
+        <h1 className="intro_heading">
+          Hi 👋 I'm {data.site.siteMetadata.author}
+        </h1>
+        <p className="intro_paragraph">{data.site.siteMetadata.bio}</p>
       </div>
     </Layout>
   );
